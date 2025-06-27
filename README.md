@@ -1,14 +1,22 @@
-# Trabajo Final Integrador de Programación
+## Trabajo Intregador Final
 
-Tecnicatura Universitaria de Telecomunicaciones – 2025  
-Lenguaje de programación: **PSeInt** (perfil Flexible)
-
-## 👥 Integrantes
+## Integrantes del equipo
 - Ydilio Sergio David Solis  
 - Isaias Martín Escalera  
 - Jonathan Emanuel Salgado
 
----
+## Carrera
+Tecnicatura Universitaria de Telecomunicaciones – 2025
+
+## Materia
+Programación
+
+## Programa Utilizado
+**PSeInt** (perfil Flexible)
+
+## Descripción
+Trabajo Final Integrador de la materia Programación (UTN - 2025).
+Incluye 10 ejercicios desarrollados en PSeInt que abordan estructuras condicionales, bucles, manejo de cadenas, matrices y operaciones matemáticas.
 
 ## 📑 Índice de ejercicios
 
