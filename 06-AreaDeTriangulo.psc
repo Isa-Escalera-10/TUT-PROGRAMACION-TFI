@@ -1,15 +1,19 @@
 Algoritmo AreaDeTriangulo
 	
+    // defino las variables
     Definir base, altura, area Como Real
 	
-    Escribir "Ingrese la base del triángulo:"
+    // pido al usuario la base
+    Escribir "Ingrese la base del triÃ¡ngulo:"
     Leer base
 	
-    Escribir "Ingrese la altura del triángulo:"
+    // pido la altura
+    Escribir "Ingrese la altura del triÃ¡ngulo:"
     Leer altura
 	
-    area <- (base * altura) / 2
+    area <- (base * altura) / 2   // calculo el area con la formula
 	
-    Escribir "El área del triángulo es: ", area
+    // resultado
+    Escribir "El Ã¡rea del triÃ¡ngulo es: ", area
 	
 FinAlgoritmo
