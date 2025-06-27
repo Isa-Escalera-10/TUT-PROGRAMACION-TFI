@@ -1,20 +1,25 @@
 Algoritmo CalcularInteresSimple
 	
+    // defino las variables
 	Definir capital, tiempo, tasa, interes Como Real
 	
-    // Definir la tasa fija (anual, Argentina 2025)
-    tasa <- 0.32  // 32% (anual)
+    // fijo la tasa de interes
+    tasa <- 0.32   // 32% anual
 	
-    Escribir "La tasa de interés es del ", tasa * 100, "%"
+    // muestro la tasa
+    Escribir "La tasa de interÃ©s es del ", tasa * 100, "%"
 	
+    // pido el capital inicial
     Escribir "Ingrese capital inicial:"
     Leer capital
 	
-    Escribir "Ingrese el tiempo en años:"
+    // pido el tiempo en aÃ±os
+    Escribir "Ingrese el tiempo en aÃ±os:"
     Leer tiempo
 	
-    interes <- capital * tasa * tiempo
+    interes <- capital * tasa * tiempo   // aplico la formula de interes simple
 	
-    Escribir "El interés generado es: ", interes
+    // muestro el resultado
+    Escribir "El interÃ©s generado es: ", interes
 	
 FinAlgoritmo
