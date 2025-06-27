@@ -1,28 +1,36 @@
 Algoritmo PromedioNumeros
+
+    // defino las variables
     Definir numero, suma, contador, promedio Como Real
 	
-    suma <- 0
-    contador <- 0
+    suma <- 0           // arranco la suma en cero
+    contador <- 0       // arranco el contador en cero
 	
-    Escribir "Ingrese números para calcular el promedio."
-    Escribir "Para finalizar, ingrese un número negativo."
+    // explico al usuario quÃ© hacer
+    Escribir "Ingrese nÃºmeros para calcular el promedio."
+    Escribir "Para finalizar, ingrese un nÃºmero negativo."
 	
+    // pido el numeros al usuario
     Repetir
-        Escribir "Ingrese un número:"
+        Escribir "Ingrese un nÃºmero:"
         Leer numero
 		
+        // si el nÃºmero es positivo lo sumo y cuento
         Si numero >= 0 Entonces
             suma <- suma + numero
             contador <- contador + 1
         FinSi
 		
+    // sale del bucle cuando el nÃºmero es negativo
     Hasta Que numero < 0
 	
+    // si hay nÃºmeros vÃ¡lidos calcular el promedio
     Si contador > 0 Entonces
         promedio <- suma / contador
-        Escribir "El promedio de los ", contador, " números ingresados es: ", promedio
+        Escribir "El promedio de los ", contador, " nÃºmeros ingresados es: ", promedio
     Sino
-        Escribir "No se ingresaron números válidos para calcular un promedio."
+        // si no puso ningun numero valido aviso
+        Escribir "No se ingresaron nÃºmeros vÃ¡lidos para calcular un promedio."
     FinSi
 	
 FinAlgoritmo
